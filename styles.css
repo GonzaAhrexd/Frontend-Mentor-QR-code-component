@@ -1,2 +1,27 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+.imagen{
+    width: 85%;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabla{
+    align-self: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
