@@ -15,10 +15,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-
+<div align="center">
+<div>
 <img src="https://cdn.discordapp.com/attachments/740761148642689055/1022563578135445524/unknown.png">
-
+<p align="center"> Desktop view </p>
+</div>
+<div>
 <img src="https://cdn.discordapp.com/attachments/740761148642689055/1022564112116494406/unknown.png">
+<p align="center"> Mobile view </p>
+</div>
+</div>
 
 ### Built with
 
