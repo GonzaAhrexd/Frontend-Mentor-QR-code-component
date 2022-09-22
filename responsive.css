@@ -1,10 +1,48 @@
 @media (max-width: 638px) {
-    .tabla{
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+.imagen{
+    width: 91%;
+    border-radius: 3%;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.p1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    font-size: 160%;
+}
+
+.p2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    color: hsl(220, 15%, 55%);
+    font-size: 115%;
+}
+   .tabla{
         align-self: center;
         align-content: center;
         display: flex;
         flex-direction: row;
-        height: 635px;
+        height: 600px;
         width: 357px;
         flex-wrap: wrap;
         justify-content: center;
@@ -14,5 +52,16 @@
         margin: 15px;
         margin-top: 100px;
     }
+
+
+@supports (font-variation-settings: normal) {
+    p {
+      font-weight: 400;
+    }
+    strong {
+      font-weight: 700;
+    }
+  }
+
 
 }
