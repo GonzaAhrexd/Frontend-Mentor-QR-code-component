@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 </div>
 </div>
 
-### Built with
+## Built with
 
 - HTML5 markup
 - CSS custom properties
